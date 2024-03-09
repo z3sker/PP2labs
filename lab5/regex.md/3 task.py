@@ -2,7 +2,7 @@ import re
 
 pattern = "[a-z]+_[a-z]+"
 
-test_strings = ["hello_world", "python_program", "KBTU", "kbtu_BACHELOR",
+test_strings = ["hello_worldd", "python_program", "KBTU", "kbtu_BACHELOR",
                 
                 "Postave full please"]
 

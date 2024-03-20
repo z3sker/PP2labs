@@ -28,7 +28,7 @@ def mickey():
         secs = cur_time.second
         
         #levaya ruka
-        r_angle = -6 * secs + 60
+        r_angle = -6 * secs + 57
         rotated_right_hand = pygame.transform.rotate(r_ruka, r_angle)
         right_hand_rect = r_ruka.get_rect(center=(WIDTH // 2, HEIGHT // 2))
         display.blit(rotated_right_hand, rotated_right_hand.get_rect(center=right_hand_rect.center))
